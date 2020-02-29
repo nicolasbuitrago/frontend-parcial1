@@ -1,0 +1,53 @@
+body.d-flex {
+  height: 100vh;
+}
+
+a {
+  color: #31b54f;
+}
+
+a:hover {
+  color: #40ce60;
+}
+
+.nav-name {
+  font-family: 'Oxanium';
+  font-weight: 600;
+}
+
+#login-card {
+  max-width: 90%;
+  vertical-align: middle;
+  height: 90vh;
+  font-family: 'Oxanium', serif;
+}
+
+#login-card > div.row {
+  height: 100%;
+}
+
+#login-card h1 {
+  font-weight: 700;
+  margin-top: 10rem;
+}
+
+#login-img {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("assets/gasoductos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+}
+
+.page-link {
+  color: #31b54f;
+}
+
+.page-link:hover {
+  color: #40ce60;
+}
+
+.page-item.active .page-link {
+  background-color: #31b54f;
+  border-color: #31b54f;
+}
