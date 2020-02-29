@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gasoducto - Lista de operarios</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.9.3/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.9.3/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.9.3/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.9.3/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.9.3/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    <!-- Bootstrap CSS -->
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="d-flex flex-column">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 shadow">
+      <object class="pr-2 ml-3" type="image/svg+xml" data="assets/eco.svg" width="42px" height="auto"></object>
+      <a class="nav-name navbar-brand" href="index.html">Gasoducto</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Lista</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="preguntas.html">Preguntas</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link btn-success btn ml-3 d-none d-lg-block" href="login.html">Iniciar sesión</a>
+          <a class="nav-link d-lg-none text-success" href="login.html">Iniciar sesión</a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container mb-4 mt-2">
+      <div class="container">
+        <h2 class="font-weight-bold">Lista de operarios</h2>
+      </div>
+      <div class="album pt-2">
+        <div class="container">
+          <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img class="bd-placeholder-img card-img-top" src="https://source.unsplash.com/400x225/?man,worker" alt="Operario" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Nombre del operario</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Información del operario</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatum maxime suscipit iusto aperiam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img class="bd-placeholder-img card-img-top" src="https://source.unsplash.com/400x225/?man,worker" alt="Operario" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Nombre del operario</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Información del operario</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatum maxime suscipit iusto aperiam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img class="bd-placeholder-img card-img-top" src="https://source.unsplash.com/400x225/?man,worker" alt="Operario" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Nombre del operario</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Información del operario</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatum maxime suscipit iusto aperiam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+      
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img class="bd-placeholder-img card-img-top" src="https://source.unsplash.com/400x225/?man,worker" alt="Operario" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Nombre del operario</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Información del operario</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatum maxime suscipit iusto aperiam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img class="bd-placeholder-img card-img-top" src="https://source.unsplash.com/400x225/?man,worker" alt="Operario" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Nombre del operario</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Información del operario</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatum maxime suscipit iusto aperiam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img class="bd-placeholder-img card-img-top" src="https://source.unsplash.com/400x225/?man,worker" alt="Operario" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Nombre del operario</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Información del operario</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatum maxime suscipit iusto aperiam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img class="bd-placeholder-img card-img-top" src="https://source.unsplash.com/400x225/?man,worker" alt="Operario" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Nombre del operario</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Información del operario</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatum maxime suscipit iusto aperiam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img class="bd-placeholder-img card-img-top" src="https://source.unsplash.com/400x225/?man,worker" alt="Operario" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Nombre del operario</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Información del operario</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error voluptatum maxime suscipit iusto aperiam.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <nav aria-label="pagination operarios" class="mt-3">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item">
+            <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#">3 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="page-item disabled">
+            <a class="page-link" href="#" aria-disabled="true">Siguiente</a>
+            </li>
+          </ul>
+          </nav>
+      </div>
+    </main>
+    <footer class="footer mt-auto py-4 bg-dark text-light shadow">
+      <div class="container">
+          <div class="row align-items-center py-3 justify-content-around">
+          <div class="row mb-1">
+            <object class="pr-2 ml-3" type="image/svg+xml" data="assets/eco.svg" width="50px" height="auto"></object>
+            <a class="nav-name navbar-brand text-light" href="index.html">Gasoducto</a>
+            </div>
+            <div class="col text-right d-none d-lg-block">
+            <a class="text-light" href="index.html">Lista</a>
+            </div>
+            <div class="col d-none d-lg-block">
+            <a class="text-light mx-auto" href="preguntas.html">Preguntas</a>
+            </div>
+            <div>
+            <p class="mb-0">&copy; 2020 Gasoducto S.A.S. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </div>
+          </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
