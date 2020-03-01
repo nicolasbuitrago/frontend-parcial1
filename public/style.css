@@ -52,3 +52,7 @@ a:hover {
   background-color: #31b54f;
   border-color: #31b54f;
 }
+
+#puntuacion {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}

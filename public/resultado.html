@@ -14,51 +14,61 @@
   <body class="d-flex flex-column">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 shadow">
 		<object class="pr-2 ml-3" type="image/svg+xml" data="assets/eco.svg" width="42px" height="auto"></object>
-		<a class="nav-name navbar-brand" href="index.html">Gasoducto</a>
+		<a class="nav-name navbar-brand" href="lista.html">Gasoducto</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarText">
 		  <ul class="navbar-nav ml-auto">
 			<li class="nav-item active">
-			  <a class="nav-link" href="index.html">Lista</a>
+			  <a class="nav-link" href="lista.html">Lista</a>
 			</li>
 			<li class="nav-item active">
 			  <a class="nav-link" href="preguntas.html">Preguntas</a>
 			</li>
 			<li class="nav-item active">
-			  <a class="nav-link btn-success btn ml-3 d-none d-lg-block" href="login.html">Iniciar sesión</a>
-			  <a class="nav-link d-lg-none text-success" href="login.html">Iniciar sesión</a>
+			  <a class="nav-link btn-success btn ml-3 d-none d-lg-block" href="index.html">Cerrar sesión</a>
+			  <a class="nav-link d-lg-none text-success" href="index.html">Cerrar sesión</a>
 			</li>
 		  </ul>
 		</div>
 	</nav>
 	<main class="container mb-4">
 		<h2 class="font-weight-bold">Resultado</h2>
-		<div class="list-group my-3">
+		<div class="container-fluid">
+			<div class="row">
+				<h5>Puntuación: </h5>
+				<h5 id="puntuacion" class="ml-2">2.5</h5>
+			</div>
+			<div class="row">
+				<h5>Estado:</h5>
+				<h5 class="text-danger ml-2">No aprobado</h5>
+			</div>
+		</div>
+		<div class="list-group mb-3 mt-2">
 			<div class="list-group-item d-flex justify-content-between align-items-center">
 				<p class="text-justify mb-0"><strong>1.</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus harum rem saepe. Quas recusandae sint a dignissimos soluta! Voluptates numquam tenetur aspernatur. Impedit repudiandae magnam id.</p>
-				<span class="badge badge-success badge-pill ml-3">Correcta</span>
+				<span class="badge badge-success badge-pill ml-3">Bueno</span>
 			</div>
 			<div class="list-group-item d-flex justify-content-between align-items-center">
 				<p class="text-justify mb-0"><strong>2.</strong> Cras rutrum, tortor vitae varius consequat, arcu arcu finibus magna, a euismod sem tellus et ante. Etiam ut lacus semper, tempor mauris eu, dictum lacus. Quisque ut.</p>
-				<span class="badge badge-danger badge-pill ml-3">Incorrecta</span>
+				<span class="badge badge-danger badge-pill ml-3">Malo</span>
 			</div>
 			<div class="list-group-item d-flex justify-content-between align-items-center">
 				<p class="text-justify mb-0"><strong>3.</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate: </p>
-				<span class="badge badge-success badge-pill ml-3">Correcta</span>
+				<span class="badge badge-success badge-pill ml-3">Bueno</span>
 			</div>
 			<div class="list-group-item d-flex justify-content-between align-items-center">
 				<p class="text-justify mb-0"><strong>4.</strong> Duis aute irure dolor in reprehenderit in voluptate ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate: </p>
-				<span class="badge badge-danger badge-pill ml-3">Incorrecta</span>
+				<span class="badge badge-danger badge-pill ml-3">Malo</span>
 			</div>
 			<div class="list-group-item d-flex justify-content-between align-items-center">
 				<p class="text-justify mb-0"><strong>5.</strong> In augue diam, interdum vel purus non, gravida aliquam lectus. Praesent pellentesque eget lectus ut facilisis. Morbi a nisi erat. Cras iaculis euismod enim eu semper. Nullam ultricies nunc vel: </p>
-				<span class="badge badge-success badge-pill ml-3">Correcta</span>
+				<span class="badge badge-warning badge-pill ml-3">Regular</span>
 			</div>
 		</div>
         <div class="row justify-content-center mb-3">
-			<a href="index.html" class="btn btn-primary px-4">Aceptar</a>
+			<a href="lista.html" class="btn btn-primary px-4">Aceptar</a>
 		</div>
 	</main>
 	<footer class="footer mt-auto py-4 bg-dark text-light">
@@ -66,10 +76,10 @@
 		  <div class="row align-items-center py-3 justify-content-around">
 			  <div class="row mb-1">
 				  <object class="pr-2 ml-3" type="image/svg+xml" data="assets/eco.svg" width="50px" height="auto"></object>
-				  <a class="nav-name navbar-brand text-light" href="index.html">Gasoducto</a>
+				  <a class="nav-name navbar-brand text-light" href="lista.html">Gasoducto</a>
 			  </div>
 			  <div class="col text-right d-none d-lg-block">
-				  <a class="text-light" href="index.html">Lista</a>
+				  <a class="text-light" href="lista.html">Lista</a>
 			  </div>
 			  <div class="col d-none d-lg-block">
 				  <a class="text-light mx-auto" href="preguntas.html">Preguntas</a>
